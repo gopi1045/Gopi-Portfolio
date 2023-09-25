@@ -70,6 +70,11 @@
     .achievements__container{
         width: 50%;
     }
+    .org__details
+    {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    }
     .container{
         margin-top: 20rem;
     }

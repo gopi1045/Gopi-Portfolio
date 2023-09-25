@@ -76,7 +76,7 @@ header{
   /* =========================Media queries (Small Devices)==============================  */
   @media screen and (max-width: 600px){
     header{
-        height: 60vh;
+        height: auto;
     }
     /* .header__socials, 
     .scroll__down{

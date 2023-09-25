@@ -66,6 +66,9 @@
         gap:1.2rem;
         height: auto;
     }
+    .projects__item{
+      height: 50vh;
+    }
     
 }
 
@@ -74,6 +77,9 @@
         grid-template-columns: 1fr;
         gap:1rem;
         height: auto;
+    }
+    .projects__item{
+      height: 45vh;
     }
     
 }

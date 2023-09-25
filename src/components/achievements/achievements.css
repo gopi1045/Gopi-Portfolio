@@ -1,0 +1,46 @@
+.achievements__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 40%;
+    height: 25vh;
+    /* padding-bottom: 12rem; */
+}
+.achievements__item{
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+.achievements__description{
+    color: var(--color-light);
+    font-weight: 600;
+    margin: 2rem auto 2rem auto;
+
+}
+
+
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background:var(--color-primary);
+}
+
+@media screen and (max-width: 1024px)
+{
+    .achievements__container{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .achievements__container{
+        width: 50%;
+    }
+    .container{
+        margin-top: 40rem;
+    }
+
+}

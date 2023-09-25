@@ -1,0 +1,81 @@
+/* .projects__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    
+}
+
+.projects__item{
+    background: var(--color-bg-variant);
+    padding:1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.projects__item:hover{
+    background: transparent;
+    border: 1px solid var(--color-primary-variant);
+}
+.projects__item a{
+} */
+
+.projects__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    /* Add styles for the container height and border here */
+    height: 90vh; /* Set the container height, adjust as needed */
+  }
+  
+  .projects__item {
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Center button horizontally and vertically */
+    align-items: center;
+    text-align: center;
+    /* Add styles for the 5px gap above the bottom border */
+    margin-bottom: 5px;
+  }
+  /* .projects__item h2{
+    border: 1px solid var(--color-primary);
+    padding:0.5rem 2rem;
+    background-color: var(--color-primary);
+    border-radius: 2rem;
+  } */
+  .projects__item:hover {
+    background: transparent;
+    border: 1px solid var(--color-primary-variant);
+  }
+
+  .projects__item small{
+    /* color: var(--color-light); */
+    line-height: 1.5rem;
+  }
+  
+  
+@media screen and (max-width: 1024px) {
+    .projects__container{
+        grid-template-columns: 1fr 1fr;
+        gap:1.2rem;
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .projects__container{
+        grid-template-columns: 1fr;
+        gap:1rem;
+        height: auto;
+    }
+    
+}
+
+

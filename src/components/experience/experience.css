@@ -36,12 +36,12 @@
 
 .roles li{
     display: flex;
-    text-wrap: nowrap;
+    /* text-wrap: nowrap; */
     gap: 1rem;
     background: var(--color-primary-variant);
     border: 1px solid transparent;
     /* border-radius: 2rem; */
-    padding: 0.5rem;
+    padding: 1rem;
     /* text-align: center; */
     transition: 0.3 ease;
 }
@@ -69,11 +69,6 @@
 {
     .achievements__container{
         width: 50%;
-    }
-    .org__details
-    {
-    display: grid;
-    grid-template-columns: 80% 20%;
     }
     .container{
         margin-top: 20rem;

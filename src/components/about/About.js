@@ -23,7 +23,7 @@ const About = () => {
         <article className='about__card'>
           <FaAward className='about__icon'/>
           <h5>Experience</h5>
-          <small>1+ Years Working</small>
+          <small>2+ Years Working</small>
         </article>
         <article className='about__card'>
           <FaReact className='about__icon'/>
@@ -37,10 +37,9 @@ const About = () => {
         </article>
       </div>
 
-      <p>Junior Full Stack Developer with 1+ years of experience in building and testing robust
-        applications using a wide range of technologies. Seeking an opportunity to work with a
-        reputable organization to leverage my skills while making a significant contribution to the
-        organization's growth.
+      <p>Passionate Full Stack Developer with over 2 years of experience in building and testing robust
+        applications using diverse technologies. Seeking to leverage my skills in a reputable organization
+        to drive growth and innovation.
       </p>
 
       <a href="#contact" className='btn btn-primary'>Let's Talk</a>

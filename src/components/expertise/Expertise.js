@@ -54,6 +54,20 @@ const expertise = () => {
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
+            <article className="expertise__details">
+              <BsFillPatchCheckFill className='expertise__details-icon'/>
+              <div>
+                <h4>JQuery</h4>
+                <small className='text-light'>Basics</small>
+              </div>
+            </article>
+            <article className="expertise__details">
+              <BsFillPatchCheckFill className='expertise__details-icon'/>
+              <div>
+                <h4>Axios</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
           </div>
         </div>
         <div className="expertise__backend">
@@ -98,6 +112,20 @@ const expertise = () => {
               <BsFillPatchCheckFill className='expertise__details-icon'/>
               <div>
                 <h4>ActiveMQ</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className="expertise__details">
+              <BsFillPatchCheckFill className='expertise__details-icon'/>
+              <div>
+                <h4>Spring Batch</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className="expertise__details">
+              <BsFillPatchCheckFill className='expertise__details-icon'/>
+              <div>
+                <h4>Spring Security</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>

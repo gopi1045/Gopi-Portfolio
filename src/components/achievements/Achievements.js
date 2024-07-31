@@ -24,6 +24,11 @@ const data=[
         id:3,
         title:"Foundation For Excellence Awardee",
         description:"Recipient of a prestigious 4-year scholarship from Cognizant in recognition of outstanding academic achievements",
+    },
+    {
+        id:4,
+        title:"Recognition",
+        description:"Recogized and rewarded by SVB for my contribution to shared loss agreement platform",
     }
     
 ]
